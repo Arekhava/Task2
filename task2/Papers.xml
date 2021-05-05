@@ -5,7 +5,7 @@
         xsi:schemaLocation="http://www.example.com/papers Papers.xsd">
 
     <newspaper title="Полоцкий Вестник" subject="Local news" >
-        <web>https://www.pvestnik.by/</web>
+        <web>https://www.pvestnik.by</web>
         <subscription>329586923484</subscription>
         <periodicity>daily</periodicity>
         <publisher>РК "Полоцкий Вестник"</publisher>
@@ -15,7 +15,7 @@
     </newspaper>
 
     <magazine title="Cosmopolitan"  subject="Fashion" subject1="Beauty" periodicity="WomansDay" liner-gift="cream" colored="full">
-        <web>https://www.cosmo.ru/</web>
+        <web>https://www.cosmo.ru</web>
         <subscription>32958691284</subscription>
         <date> 08.03.2021</date>
         <publisher> ООО "Фэшн Пресс"</publisher>
@@ -24,7 +24,7 @@
     </magazine>
 
     <magazine title="National Geographic" subject="Science" subject1="Education" colored="full">
-        <web>https://nat-geo.ru/</web>
+        <web>https://nat-geo.ru</web>
         <subscription>329586987694</subscription>
         <date> 01.04.2021</date>
         <periodicity>monthly</periodicity>
@@ -34,7 +34,7 @@
     </magazine>
 
     <newspaper title="Звязда" subject="Politic" subject1="Economy" subject2="Society">
-        <web>https://zviazda.by/</web>
+        <web>https://zviazda.by</web>
         <subscription>3295863423284</subscription>
         <date> 30.04.2021</date>
         <periodicity>daily</periodicity>
@@ -45,7 +45,7 @@
 
 
     <newspaper title="Аргументы и факты" subject="Politic" subject1="Economy" subject2="Local news" colored="cover" anycolored="advertising">
-        <web>https://aif.ru/</web>
+        <web>https://aif.ru</web>
         <subscription>32958623284</subscription>
         <date> 30.04.2021</date>
         <periodicity>daily</periodicity>
@@ -55,14 +55,123 @@
     </newspaper>
 
     <newspaper title="Медицинский вестник" subject="Medicine" colored="advertising" >
-        <title>Медицинский вестник</title>
-        <web>https://medvestnik.by/</web>
+        <web>https://medvestnik.by</web>
         <subscription>32958691284</subscription>
         <date>01.04.2021</date>
         <periodicity>weekly</periodicity>
         <publisher>РУП «Редакция газеты «Медицинский вестник»</publisher>
         <pages>20</pages>
         <glossy>no </glossy>
-
     </newspaper>
+
+    <newspaper title="Комсомольская правда" subject="Politic"  subject1="Economy" subject2="Society" colored="cover">
+        <web>https://www.kp.by</web>
+        <subscription>329523923484</subscription>
+        <periodicity>daily</periodicity>
+        <publisher>ЗАО ""БЕЛКП-ПРЕСС"</publisher>
+        <pages>18</pages>
+        <glossy>no</glossy>
+        <date>06.05.2021</date>
+    </newspaper>
+
+    <magazine title="Домашний очаг" subject="Society" colored="full" liner-gift="postcard" >
+        <web>www.goodhouse.ru</web>
+        <subscription>329586921694</subscription>
+        <date> 06.05.2021</date>
+        <periodicity>monthly</periodicity>
+        <publisher>ООО «Ясно Паблишинг»</publisher>
+        <pages>74</pages>
+        <glossy>yes</glossy>
+    </magazine>
+
+    <magazine title="GLAMOUR" subject="Fashion"  subject1="Beauty" subject2="Sport" colored="full" periodicity="MagazineBirthday" liner-gift="postcard" >
+        <web>https://www.glamour.ru</web>
+        <subscription>329586990694</subscription>
+        <date> 06.05.2021</date>
+        <periodicity>monthly</periodicity>
+        <publisher>АО «КОНДЕ НАСТ» </publisher>
+        <pages>64</pages>
+        <glossy>yes</glossy>
+    </magazine>
+
+    <magazine title="FORBES" subject="Economy"  subject1="Society"  colored="full"  >
+        <web>https://www.forbes.ru</web>
+        <subscription>329586990615</subscription>
+        <date> 06.05.2021</date>
+        <periodicity>monthly</periodicity>
+        <publisher>АО "АС РУС МЕДИА" </publisher>
+        <pages>46</pages>
+        <glossy>yes</glossy>
+    </magazine>
+
+    <newspaper title="Вечерний Минск" subject="Local news" colored="advertising" anycolored="cover">
+        <web>http://vminsk.by</web>
+        <subscription>12958691284</subscription>
+        <date>01.04.2021</date>
+        <periodicity>daily</periodicity>
+        <publisher>УП «Агентство «Минск-Новости»</publisher>
+        <pages>42</pages>
+        <glossy>no </glossy>
+    </newspaper>
+
+    <newspaper title="Новополоцк сегодня" subject="Local news" colored="advertising" anycolored="cover">
+        <web>https://www.novaya.by</web>
+        <subscription>22858691284</subscription>
+        <date>06.05.2021</date>
+        <periodicity>daily</periodicity>
+        <publisher> Учреждение «Редакция городской газеты «Новополоцк сегодня»</publisher>
+        <pages>50</pages>
+        <glossy>no </glossy>
+    </newspaper>
+
+    <newspaper title="Витебские вести" subject="Local news" colored="advertising" anycolored="cover">
+        <web>https://vitvesti.by/</web>
+        <subscription>22858601784</subscription>
+        <date>06.05.2021</date>
+        <periodicity>daily</periodicity>
+        <publisher> Областная газета "Витебские вести"</publisher>
+        <pages>50</pages>
+        <glossy>no </glossy>
+    </newspaper>
+
+    <newspaper title="НАШ ЧАС" subject="Local news" >
+        <web>https://volkovysknews.by</web>
+        <subscription>22058601784</subscription>
+        <date>06.05.2021</date>
+        <periodicity>daily</periodicity>
+        <publisher> ГУ «Редакция Волковысской районной газеты и телерадиопрограмм «Наш час»</publisher>
+        <pages>30</pages>
+        <glossy>no </glossy>
+    </newspaper>
+
+    <magazine title="ВОКРУГ СВЕТА" subject="Society" colored="full"  >
+        <web>https://www.vokrugsveta.ru</web>
+        <subscription>329586921494</subscription>
+        <date> 06.05.2021</date>
+        <periodicity>monthly</periodicity>
+        <publisher>Сетевое издание «Сайт VokrugSveta.ru (ВокругСвета.ру)»</publisher>
+        <pages>74</pages>
+        <glossy>yes</glossy>
+    </magazine>
+
+    <magazine title="ВОКРУГ СВЕТА" subject="Society" colored="full"  >
+        <web>https://www.vokrugsveta.ru</web>
+        <subscription>329586921494</subscription>
+        <date> 06.05.2021</date>
+        <periodicity>monthly</periodicity>
+        <publisher>Сетевое издание «Сайт VokrugSveta.ru (ВокругСвета.ру)»</publisher>
+        <pages>74</pages>
+        <glossy>yes</glossy>
+    </magazine>
+
+    <magazine title="Наука и техника" subject="Science" colored="cover"  >
+        <web>https://sat.bntu.by/</web>
+        <subscription>329580021494</subscription>
+        <date> 06.05.2021</date>
+        <periodicity>monthly</periodicity>
+        <publisher>ООО "Belarusian National Technical University"</publisher>
+        <pages>40</pages>
+        <glossy>no</glossy>
+    </magazine>
+
 </periodicals>
