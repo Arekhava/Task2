@@ -179,7 +179,7 @@
     </magazine>
 
     <magazine title="Наука и техника" subject="Science" colored="cover"  >
-        
+
         <periodicity>monthly</periodicity>
         <publisher>ООО "Belarusian National Technical University"</publisher>
         <pages>40</pages>
