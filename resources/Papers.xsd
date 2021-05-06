@@ -40,8 +40,7 @@
         <complexContent>
             <extension base="tns:Papers">
                 <sequence>
-                    <element name="name" type="string" />
-                    <element name="web" type="string" />
+                    <element name="website" type="string" />
                     <element name="subscription" type="ID" />
                 </sequence>
             </extension>
@@ -52,8 +51,7 @@
         <complexContent>
             <extension base="tns:Papers">
                 <sequence>
-                    <element name="title" type="string" />
-                    <element name="web" type="string" />
+                    <element name="website" type="string" />
                     <element name="subscription" type="ID" />
                 </sequence>
             </extension>
@@ -61,7 +59,7 @@
     </complexType>
 
     <simpleType name="Title">
-        <restriction base="ID" />
+        <restriction base="string"/>
     </simpleType>
 
     <simpleType name="Subject">
