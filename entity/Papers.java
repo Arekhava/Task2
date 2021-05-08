@@ -1,15 +1,15 @@
 package entity;
 
-public class Newspaper {
+public class Papers {
     private String title;
     private String publisher;
     private String website;
     private String subscription;
     private int pages;
    // private Publisher publisher=new Publisher();
-    public Newspaper(){
+    public Papers(){
     }
-    public Newspaper(String title, String publisher, String website, String subscription, int pages){
+    public Papers(String title, String publisher, String website, String subscription, int pages){
         this.title=title;
         this.publisher=publisher;
         this.website=website;
