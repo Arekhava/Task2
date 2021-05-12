@@ -6,10 +6,7 @@ import org.xml.sax.helpers.DefaultHandler;
 import java.awt.print.Paper;
 import java.util.EnumSet;
 import java.util.HashSet;
-import java.util.Locale;
 import java.util.Set;
-
-import static java.util.EnumSet.range;
 
 public class PaperHandler extends DefaultHandler{
 
