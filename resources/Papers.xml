@@ -2,8 +2,7 @@
 <periodicals xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="http://www.example.com/papers"
          xsi:schemaLocation="http://www.example.com/papers Papers.xsd">
-
-<newspaper title="Полоцкий Вестник" subject="Local news" >
+    <newspaper title="Полоцкий Вестник" subject="Local news" >
     <periodicity>daily</periodicity>
     <publisher>РК "Полоцкий Вестник"</publisher>
     <pages>18</pages>
@@ -11,10 +10,7 @@
     <date>2021-04-29</date>
     <website>www.pvestnik.by</website>
     <subscription>FGRT124</subscription>
-</newspaper>
-
-
-
+    </newspaper>
     <magazine title="Cosmopolitan"  subject="Fashion" subject1="Beauty" liner-gift="cream" colored="full">
         <periodicity>monthly</periodicity>
         <publisher> ООО "Фэшн Пресс"</publisher>
@@ -186,7 +182,7 @@
         <glossy>no</glossy>
         <date> 2021-05-06</date>
         <website>www.sat.bntu.by/</website>
-        <subscription>TRET2356u</subscription>
+        <subscription>TRET2356</subscription>
     </magazine>
 
 </periodicals>

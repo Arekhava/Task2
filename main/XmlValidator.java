@@ -39,28 +39,3 @@ public class XmlValidator {
         return true;
     }
 }
-
-//private final static Logger logger = LogManager.getLogger(PlantStaxBuilder.class);
-//
-//    public static boolean validateGlasshouseXmlFile(String xmlFilePath) {
-//        final String SCHEMA_NAME = "file/glasshouse.xsd";
-//        ClassLoader loader = XmlValidator.class.getClassLoader();
-//        URL resource = loader.getResource(SCHEMA_NAME);
-//        String schemaPath = new File(resource.getFile()).getAbsolutePath();
-//
-//        String language = XMLConstants.W3C_XML_SCHEMA_NS_URI;
-//        SchemaFactory factory = SchemaFactory.newInstance(language);
-//        File schemaFile = new File(schemaPath);
-//        try {
-//            Schema schema = factory.newSchema(schemaFile);
-//            Validator validator = schema.newValidator();
-//            Source source = new StreamSource(xmlFilePath);
-//            validator.validate(source);
-//        } catch (SAXException exception) {
-//            logger.error("File " + xmlFilePath + " is not valid because " + exception.getMessage());
-//            return false;
-//        } catch (IOException exception) {
-//            logger.error("File " + xmlFilePath + " is not found");
-//        }
-//        return true;
-//    }
